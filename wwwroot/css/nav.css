@@ -2587,8 +2587,16 @@ fieldset:disabled a.btn {
   background-color: #138496;
   border-color: #117a8b;
 }
-
 .cancel:hover {
+    color: var(--dark);
+}
+.cancel {
+     color: #F0EFEF;
+    font-weight: bolder;
+    font-size: 17px;
+    
+}
+/*.cancel:hover {
   background-color: #c89328;
   border: none;
   padding: 5px 10px;
@@ -2598,7 +2606,7 @@ fieldset:disabled a.btn {
   transition: all 0.5s ease-in-out;
   box-shadow: 1px 2px 2px 1px rgb(116 113 113 / 50%);
 
-}
+}*/
 
 .btn-info:focus,
 .btn-info.focus {
