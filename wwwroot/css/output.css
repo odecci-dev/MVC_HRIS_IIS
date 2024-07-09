@@ -8,7 +8,7 @@
     --accent: #c89328;
     --shade: rgba(125, 125, 125, 0.5);
     --shadow: rgba(200, 200, 200, 0.5);
-    --sidebarwidth: 200px;
+    --sidebarwidth: 60px;
     --topbarheight: 100px;
     --data-height: 300px;
     --data-width: 600px;
@@ -1004,7 +1004,7 @@ input.input-search:focus-within .search-form {
 }
 
 .sidebar .img-container {
-  width: 70%;
+  width: 100%;
   margin: 10px auto;
 }
 .dataTables_paginate span .paginate_button{ 
@@ -2712,11 +2712,13 @@ table.myTableLarge tbody tr:hover td:nth-child(1) p:nth-child(1) {
 }
 
 .list-title {
-  width: 100%;
-  background-color: var(--dark);
-  height: 40px;
-  color: var(--light);
-  padding: 10px;
+    width: 100%;
+    background-color: var(--dark);
+    height: 100px;
+    color: var(--light);
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 table.myTable {
@@ -3290,19 +3292,27 @@ input[type="button"]:hover {
 }
 
 a {
-  color: #c89328;
-  font-size: 0.8rem;
+    color: white;
+    font-size: 0.8rem;
 }
 
 a:hover {
 }
 
 .img-container {
-  margin: 0 auto;
+    /*margin: 0 auto;
   height: 120px;
   width: 120px;
-  overflow: hidden;
-  /* border-radius: 50%; */
+  overflow: hidden;*/
+    /* border-radius: 50%; */
+    margin: 0 auto;
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .upload-image-preview {
@@ -3452,14 +3462,6 @@ label[for="logo-img"]:hover {
   padding: 10px;
 }
 
-.list-title {
-  width: 100%;
-  background-color: var(--dark);
-  height: 40px;
-  color: var(--light);
-  padding: 10px;
-  padding-bottom:1rem;
-}
 
 .registerlist-actions {
   display: flex;
