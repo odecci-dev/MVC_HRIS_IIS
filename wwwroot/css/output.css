@@ -3108,7 +3108,7 @@ body {
     height: 100vh; /* Adjust the height as needed */
     background-size: cover; /* Ensure the background image covers the entire container */
     background-position: center; /* Center the background image */
-    border: 1px solid #ccc; /* Optional: Add border for visualization */
+    /*border: 1px solid #ccc;*/ /* Optional: Add border for visualization */
 }
 .hero-container {
     margin-top:150px;
