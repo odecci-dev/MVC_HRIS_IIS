@@ -1003,6 +1003,7 @@ input.input-search:focus-within .search-form {
   flex-direction: column;
 }
 
+
 .sidebar .img-container {
   width: 100%;
   margin: 10px auto;
@@ -3252,6 +3253,7 @@ label {
     display: flex;
     width: 100%;
     margin-top: 50px;
+    margin-bottom:25px;
 }
 .actions_ {
     display: flex;
@@ -3323,7 +3325,21 @@ a {
 
 a:hover {
 }
-
+.img-container3 {
+    /*margin: 0 auto;
+  height: 120px;
+  width: 120px;
+  overflow: hidden;*/
+    /* border-radius: 50%; */
+    margin: 0 auto;
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .img-container {
     /*margin: 0 auto;
   height: 120px;
