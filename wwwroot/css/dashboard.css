@@ -338,7 +338,7 @@ body-container {
     display: flex;
     flex-direction: column;
     overflow:scroll;
-    height:900px;
+    height:800px;
 }
 .content-filter-nm {
 
