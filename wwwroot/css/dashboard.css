@@ -97,8 +97,8 @@
     flex-direction: column;
     /*overflow: auto;*/
     position: relative;
-    border-bottom: 2px solid black;
 }
+
 
 .title-main-container-2 {
     grid-area: data1;
@@ -302,7 +302,11 @@ body-container {
     border-radius: 10px;
     height: 100vh;
 }
-
+.content-main {
+    margin: 25px;
+    border-radius: 10px;
+    height: 100vh;
+}
 .footer-container-cb {
     grid-area: data4;
     width: 100%;
@@ -318,6 +322,7 @@ body-container {
 .content-container {
     margin-top: 30px;
     display: flex;
+    border-bottom: 2px solid black;
     flex-direction: column;
 }
 
@@ -334,11 +339,9 @@ body-container {
     flex-direction: column;
 }
 .content-filter-tbl {
-    margin: 10px 30px 10px 30px;
+    margin: 10px 0px;
     display: flex;
     flex-direction: column;
-    overflow:scroll;
-    height:800px;
 }
 .content-filter-nm {
 
@@ -452,6 +455,18 @@ table.dataTable thead th:first-child {
     cursor: pointer;
     border-radius: 5px;
     background-color: var(--red);
+    color: white;
+    width: 100%;
+}
+.tbl-email {
+    display: flex;
+    gap: 5px;
+    margin: 0 0px;
+    /*justify-content: center;*/
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--accent);
     color: white;
     width: 100%;
 }

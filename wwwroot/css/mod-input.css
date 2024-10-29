@@ -9,6 +9,13 @@
     width: 100%;
     color: var(--secondary-dark);
     margin-top: 10px;
+
+}
+.validation-label
+{
+    color:red;
+    font-weight:bolder;
+    margin-left:30px;
 }
 .img-choose {
     display: none;
@@ -21,6 +28,7 @@
     border: 1px solid #e7e6e6;
     box-shadow: inset 1px 2px 1px 1px rgba(116, 113, 113, 0.5);
     border-radius: 5px;
+    padding-left: 15px;
 }
 select {
     font-size: 1.2rem;
